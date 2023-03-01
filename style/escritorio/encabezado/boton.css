@@ -1,0 +1,24 @@
+:root {
+    font-family: 'KoHo regular';
+}
+
+header .boton {
+    font-family: 'KoHo regular';
+    text-decoration: none;
+
+    background: var(--tema-25-porciento);
+    color: var(--tema-95-porciento);
+    box-shadow: 3px 3px 5px var(--tema-05-porciento);
+   
+    text-align: center;
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+    border-radius: 0.5em;   
+    transition: all 500ms;
+}
+
+header .boton:hover {
+    background-color: var(--tema-75-porciento);
+    color: var(--tema-05-porciento);
+    transform: scale(1.2);
+}

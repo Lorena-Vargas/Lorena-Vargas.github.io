@@ -1,0 +1,29 @@
+main .presentacion{
+    display: grid;
+    grid-template-areas: "foto descripcion"
+                         "habilidades habilidades";
+    grid-template-rows: auto-fit auto-fit;
+    grid-template-columns: 3fr 7fr;
+    row-gap: 5rem;
+    column-gap: 10rem;
+
+}
+
+main .presentacion .foto{
+    grid-area: foto;
+    justify-self: center;
+    align-self: center;
+}
+
+main .presentacion .descripcion{
+    grid-area: descripcion;
+    text-align: right;
+}
+
+main .presentacion .descripcion .contenido {
+    text-align: justify;
+}
+
+main .presentacion .habilidades {
+    grid-area: habilidades;
+}

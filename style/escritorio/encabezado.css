@@ -1,0 +1,18 @@
+:root {
+    font-family: 'Koho regular';
+}
+
+header {
+    display: grid;
+    grid-template-areas: "restante botón";
+    grid-template-rows: auto;
+    grid-template-columns: 7fr 3fr;
+    padding: 2rem;
+    background: var(--tema-50-porciento);
+
+}
+
+header .boton {
+    grid-area: boton;
+}
+

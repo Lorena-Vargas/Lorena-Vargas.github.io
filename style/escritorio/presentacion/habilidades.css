@@ -1,0 +1,17 @@
+main .presentacion .habilidades .titulo {
+    text-align: center;
+    font-size: 2rem;
+}
+
+main .presentacion .habilidades .iconos {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+main .presentacion .habilidades .iconos .icono {
+    display: inline-block;
+    height: 5rem;
+}
+

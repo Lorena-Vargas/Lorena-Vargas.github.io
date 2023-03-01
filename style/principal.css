@@ -1,0 +1,11 @@
+@import './theme.css';
+@import './escritorio/encabezado.css';
+@import './escritorio/encabezado/boton.css';
+@import './escritorio/presentacion.css';
+@import './escritorio/presentacion/habilidades.css'; 
+@import './general.css';
+
+@font-face {
+    font-family: 'KoHo regular';
+    src: url('../fonts/KoHo-Regular.ttf');
+}

@@ -1,0 +1,10 @@
+:root {
+    --color: 344;
+    --intensidad: 100%;
+
+    --tema-05-porciento: hsl(var(--color), var(--intensidad), 05%);
+    --tema-25-porciento: hsl(var(--color), var(--intensidad), 25%);
+    --tema-50-porciento: hsl(var(--color), var(--intensidad), 50%);
+    --tema-75-porciento: hsl(var(--color), var(--intensidad), 75%);
+    --tema-95-porciento: hsl(var(--color), var(--intensidad), 95%);
+}

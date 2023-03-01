@@ -1,0 +1,19 @@
+body {
+    background: var(--tema-95-porciento);
+    color: var(--tema-25-porciento);
+    margin: 0;
+}
+
+main{
+    margin: 3rem 5rem;
+}
+
+mark {
+    background: none;
+    font-size: 1.25em;
+    color: var(--tema-50-porciento);
+}
+
+.titulo {
+    color: var(--tema-05-porciento);
+}
